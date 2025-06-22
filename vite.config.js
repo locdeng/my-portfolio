@@ -6,12 +6,13 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base:'/my-portfolio/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // base: "/react-portfolio/",
+  
 });
 
 
