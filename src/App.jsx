@@ -7,12 +7,12 @@ function App() {
   return (
     <>
       <Toaster />
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
