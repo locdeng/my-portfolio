@@ -12,20 +12,15 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              An Entry-Level Software Developer & Data Analyst
             </h3>
 
-            <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
-            </p>
-
-            <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            <p className="text-muted-foreground max-w-prose mx-auto md:mx-0">
+              I graduated from Chung-Ang University in Software, 
+              but my real learning began with building things from scratch. 
+              From Flutter apps to data analysis, I’ve explored code with curiosity as my compass. 
+              Now diving into React and soon backend, too as I work toward full-stack mastery. 
+              My dream? To build an app so useful and delightful that people won’t just use it but they’ll love it.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -34,12 +29,12 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
 
-              <a
+              {/* <a
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -50,10 +45,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Mobile App Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Creating web application with Flutter.
                   </p>
                 </div>
               </div>
@@ -64,10 +58,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Data Analysis</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Crawling, analyzing, and visualizing data to extract meaningful insights with Python libraries and Streamlit. 
                   </p>
                 </div>
               </div>
@@ -79,10 +72,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Learner</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Learning React and backend development to become a full-stack developer. 
                   </p>
                 </div>
               </div>

@@ -1,16 +1,15 @@
 import {
-  Instagram,
-  Linkedin,
+  LucideLinkedin,
   Mail,
   MapPin,
   Phone,
-  Send,
-  Twitch,
-  Twitter,
+  // Send,
+
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
+// import { LucideLinkedin } from "lucide-react";
 
 export const ContactSection = () => {
   const { toast } = useToast();
@@ -41,7 +40,7 @@ export const ContactSection = () => {
           I'm always open to discussing new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="flex flex-col items-center">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
@@ -56,10 +55,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    //href="ssuanloc@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    ssuanloc@gmail.com
                   </a>
                 </div>
               </div>
@@ -70,10 +69,9 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +82 10-7116-1705
                   </a>
                 </div>
               </div>
@@ -84,32 +82,31 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Seoul, South Korea
                   </a>
                 </div>
               </div>
+
             </div>
 
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
+                <a href="https://www.linkedin.com/in/locdang27" target="_blank" rel="noopener noreferrer">
+                  Linkedin 
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
+                
+                {/* <a href="#" target="_blank">
                   <Instagram />
                 </a>
                 <a href="#" target="_blank">
                   <Twitch />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
 
-          <div
+          {/* <div
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
@@ -180,7 +177,7 @@ export const ContactSection = () => {
                 <Send size={16} />
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
