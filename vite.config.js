@@ -12,7 +12,6 @@ export default defineConfig({
     },
   },
   base: "/react-portfolio/",
-  plugins: [react()],
 });
 
 
