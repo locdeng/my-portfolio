@@ -2,17 +2,17 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Toaster } from "@/components/ui/toaster";
-// import { BrowserRouter} from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 function App() {
   return (
     <>
       <Toaster />
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
