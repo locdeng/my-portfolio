@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "YAG, SA Application",
     description: "A mobile app designed to help users manage their medication routine by taking medicine and recording it with a photo. Built with Flutter, Dart, and Firebase using Android Studio.",
-    image: "${import.meta.env.BASE_URL}/projects/project1.png",
+    image: "/projects/project1.png",
     tags: ["Flutter", "Dart", "Firebase"],
     // demoUrl: "#",
     githubUrl: "https://github.com/YagSa/YagSa-FE",
@@ -15,7 +15,7 @@ const projects = [
     title: "Real-Time Color Detection",
     description:
       "A real-time color recognition system using OpenCV and a K-Nearest Neighbors (KNN) classifier. It detects and classifies colors from webcam input using HSV filtering and histogram-based learning.",
-    image: "${import.meta.env.BASE_URL}/projects/project2.jpg",
+    image: "/projects/project2.jpg",
     tags: ["Python", "OpenCV", "KNN", "Machine Learning"],
     // demoUrl: "#",
     githubUrl: "https://github.com/locdeng/Color-Detection",
@@ -25,7 +25,7 @@ const projects = [
     title: "Titanic Survival Analysis Dashboard",
     description:
       "An interactive dashboard analyzing survival patterns from the Titanic dataset using various features. Built a Random Forest model with 81% accuracy and visualized results via Streamlit.",
-    image: "${import.meta.env.BASE_URL}/projects/project3.png",
+    image: "/projects/project3.png",
     tags: ["Python", "Pandas", "scikit-learn", "Streamlit", "Seaborn", "Plotly"],
     // demoUrl: "#",
     githubUrl: "https://github.com/locdeng/Titanic-Dataset-Dashboard",
@@ -61,8 +61,8 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag, index) => (
-                    <span key={`${project.id}-${index}`} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                  {project.tags.map((tag) => (
+                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
                   ))}
