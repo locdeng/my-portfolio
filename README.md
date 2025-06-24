@@ -60,6 +60,12 @@ Build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and
 * [Node.js](https://nodejs.org/)
 * [Git](https://git-scm.com/)
 
+```bash
+git clone
+```
+
+
+
 ---
 
 ## ☁️ Deployment
