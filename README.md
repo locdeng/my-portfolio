@@ -69,7 +69,7 @@ npm install
 npm  run dev
 ```
 
-### Custom information from component { AboutSection.jsx, ContactSection.jsx, HeroSection.jsx, ProjectsSection.jsx, SkillsSection.jsx }
+### Custom information from UI component 
 
 | File Name            | Editable Content                             |
 |----------------------|----------------------------------------------|
