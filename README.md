@@ -66,7 +66,7 @@ git clone https://github.com/locdeng/my-portfolio.git
 
 ```bash
 npm install
-npm  run dev
+npm run dev
 ```
 
 ### Custom information ./src/component
