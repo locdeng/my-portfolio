@@ -61,7 +61,7 @@ Build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and
 * [Git](https://git-scm.com/)
 
 ```bash
-git clone
+git clone https://github.com/locdeng/my-portfolio.git
 ```
 
 
