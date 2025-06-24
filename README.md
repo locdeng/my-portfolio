@@ -69,7 +69,7 @@ npm install
 npm  run dev
 ```
 
-### Custom information from UI component 
+### Custom information ./src/component
 
 | File Name            | Editable Content                             |
 |----------------------|----------------------------------------------|
