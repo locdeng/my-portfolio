@@ -64,15 +64,20 @@ Build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and
 git clone https://github.com/locdeng/my-portfolio.git
 ```
 
+```bash
+npm install
+npm  run dev
+```
+
 ### Custom information from component { AboutSection.jsx, ContactSection.jsx, HeroSection.jsx, ProjectsSection.jsx, SkillsSection.jsx }
 
-| File Name             | Description                                  |
+| File Name            | Editable Content                             |
 |----------------------|----------------------------------------------|
-| `AboutSection.jsx`    | "About Me" section for the landing page.     |
-| `ContactSection.jsx`  | Contact form or contact details section.     |
-| `HeroSection.jsx`     | Top banner with title and intro text.        |
-| `ProjectsSection.jsx` | Portfolio or project showcase section.       |
-| `SkillsSection.jsx`   | Displays skills using icons or progress bars.| --> not use right now.
+| AboutSection.jsx     | Bio / introduction text                      |
+| ContactSection.jsx   | Contact email, links, or form details        |
+| HeroSection.jsx      | Page title, subtitle, greeting               |
+| ProjectsSection.jsx  | Project list and descriptions                |
+| SkillsSection.jsx    | Skill names, icons, or descriptions          | --> not use right now.
 
 
 ---
